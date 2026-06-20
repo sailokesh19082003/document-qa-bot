@@ -1,0 +1,10 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+.env
+db/*
+!db/.gitkeep
+.DS_Store
+*.egg-info/
+.streamlit/secrets.toml
