@@ -1,5 +1,8 @@
 # Health & Nutrition Document Q&A Bot (RAG)
 
+🔗 **Live Demo:** https://document-app-bot-bbeuh94vht5zwz74agyxjw.streamlit.app/
+
+
 A command-line and web-based Q&A bot that answers questions strictly from a
 local collection of health & nutrition documents, using Retrieval-Augmented
 Generation (RAG). The bot never relies on the LLM's own training knowledge —
