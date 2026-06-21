@@ -42,6 +42,19 @@ with st.sidebar:
     )
     top_k = st.slider("Number of chunks to retrieve (k)", min_value=1, max_value=8, value=4)
 
+    st.divider()
+    st.subheader("💡 Try asking")
+    sample_questions = [
+        "How much protein should an athlete eat per day?",
+        "What are the symptoms of vitamin D deficiency?",
+        "How much fluid should I drink during exercise?",
+        "How does caffeine affect sleep?",
+        "What foods support a healthy gut microbiome?",
+    ]
+    for q in sample_questions:
+        st.markdown(f"- {q}")
+    st.caption("This bot only knows about health & nutrition topics covered in its 5 source documents.")
+
 # ---- Chat history ----
 if "history" not in st.session_state:
     st.session_state.history = []
